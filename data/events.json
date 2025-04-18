@@ -1,0 +1,14 @@
+{
+  "events": [
+    {
+      "id": "scream_jump_scare",
+      "trigger": "enter_bloody_room",
+      "effect": "play_scream, shake_screen"
+    },
+    {
+      "id": "generator_overload",
+      "trigger": "use_gold_in_generator",
+      "effect": "explosion, fade_to_black"
+    }
+  ]
+}
