@@ -1,0 +1,14 @@
+{
+  "locations": [
+    {
+      "id": "surgery_room",
+      "image": "surgical_room.png",
+      "connections": ["hallway", "generator_room"]
+    },
+    {
+      "id": "green_room",
+      "image": "hacker_room.png",
+      "connections": ["matrix_corridor"]
+    }
+  ]
+}
