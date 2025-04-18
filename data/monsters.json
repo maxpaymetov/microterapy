@@ -1,0 +1,16 @@
+{
+  "monsters": [
+    {
+      "id": "scp_096",
+      "name": "SCP-096",
+      "behavior": "chase_on_look",
+      "sound": "scp096_encounter.mp3"
+    },
+    {
+      "id": "zombie",
+      "name": "Зомби",
+      "behavior": "guard_exit",
+      "sound": "zombie_growl.mp3"
+    }
+  ]
+}
