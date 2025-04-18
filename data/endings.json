@@ -1,0 +1,43 @@
+{
+  "endings": [
+    {
+      "id": "hell",
+      "name": "Тёмная сторона ада",
+      "conditions": {
+        "generator_activated": true,
+        "artifacts": ["sapphire", "gold_bar", "surgeon_eye"],
+        "final_boss_defeated": true,
+        "monsters_killed": { "min": 5 },
+        "used_matrix_vision": true,
+        "entered_backrooms": true,
+        "escaped_surgery": true
+      },
+      "description": "Ты активировал генератор тьмы, вставил артефакты, разорвал ткань реальности и оказался в аду. Всё сгорело в красном огне."
+    },
+    {
+      "id": "salvation",
+      "name": "Спасение",
+      "conditions": {
+        "hacker_helped": true,
+        "secret_exit_used": true,
+        "monsters_killed": 0,
+        "flash_drive_used": true,
+        "escaped_without_fight": true,
+        "time_elapsed": { "max_minutes": 20 }
+      },
+      "description": "Ты не стал убивать. Нашёл флешку, взломал выход и сбежал в тишине. Свобода... если это вообще реально."
+    },
+    {
+      "id": "hallucination_death",
+      "name": "Смерть в галлюцинации",
+      "conditions": {
+        "entered_hallucination": true,
+        "no_escape": true,
+        "health": 0,
+        "ignored_ultraviolet": true,
+        "stayed_in_trap": true
+      },
+      "description": "Ты погиб в ловушке своего сознания. Галлюцинации сожрали тебя. В глазах — тьма, в ушах — крики."
+    }
+  ]
+}
