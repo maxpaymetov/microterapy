@@ -1,0 +1,23 @@
+{
+  "name": "Microterapy: Ужасы больницы",
+  "short_name": "Microterapy",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#8b0000",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "assets/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "description": "Хирургический хоррор-квест: галлюцинации, зомби, монстры и матричное зрение. Выживешь ли ты в больнице?",
+  "lang": "ru-RU"
+}
