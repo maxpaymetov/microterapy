@@ -1,0 +1,14 @@
+{
+  "triggers": [
+    {
+      "id": "secret_key_reveal",
+      "condition": "use_uv_light_in_surgery",
+      "result": "reveal_secret_key"
+    },
+    {
+      "id": "hallucination_death",
+      "condition": "stay_too_long_in_dark_corridor",
+      "result": "trigger_hallucination_ending"
+    }
+  ]
+}
