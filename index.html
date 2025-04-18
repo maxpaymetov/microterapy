@@ -1,13 +1,31 @@
-<!DOCTYPE html>
-<html>
+!DOCTYPE html>
+<html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>Microterapy</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <title>Microterapy</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <canvas id="gameCanvas" width="640" height="360"></canvas>
-  <div id="leaderboard"></div>
-  <script src="script.js"></script>
+    <div id="game-container">
+        <h1>Мракотерапия: Ужасы больницы</h1>
+        <img id="background" src="assets/images/map.png" alt="background" />
+
+        <div id="controls">
+            <button id="btn-hacker">Комната хакера</button>
+            <button id="btn-generator">К генератору</button>
+            <button id="btn-surgery">Хирургия</button>
+            <button id="btn-secret">Секретный выход</button>
+            <button id="btn-death">Галлюцинации смерти</button>
+        </div>
+
+        <div id="status">
+            <p>Убийства: <span id="kills">0</span></p>
+            <p>Текущая сцена: <span id="scene">map</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
