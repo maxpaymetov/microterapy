@@ -1,0 +1,18 @@
+body {
+  background: black;
+  color: white;
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+canvas {
+  border: 2px solid red;
+  background: #111;
+}
+
+#leaderboard {
+  margin-top: 20px;
+  font-size: 14px;
+}
