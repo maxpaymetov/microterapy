@@ -1,18 +1,60 @@
 body {
-  background: black;
-  color: white;
-  font-family: 'Courier New', monospace;
-  margin: 0;
-  padding: 0;
-  text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #0f0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-canvas {
-  border: 2px solid red;
-  background: #111;
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
 
-#leaderboard {
-  margin-top: 20px;
-  font-size: 14px;
+h1 {
+    font-size: 24px;
+    color: #ff0040;
+    text-shadow: 0 0 5px red;
+    margin-bottom: 10px;
+}
+
+#background {
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    border: 3px solid #00ff00;
+    box-shadow: 0 0 20px #00ff00;
+    margin-bottom: 15px;
+}
+
+#controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #111;
+    border: 2px solid #00ff00;
+    color: #00ff00;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+button:hover {
+    background-color: #00ff00;
+    color: #000;
+    box-shadow: 0 0 10px #00ff00;
+}
+
+#status {
+    font-size: 14px;
+    color: #aaa;
+    margin-top: 10px;
+    text-align: center;
 }
